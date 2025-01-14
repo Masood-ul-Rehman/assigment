@@ -35,8 +35,8 @@ export default function Home() {
         <div className="flex  gap-3">
           <div className=" flex gap-2 items-center">
             <Image src="/seman.png" alt="semen icon" width={20} height={20} />
-            <h4 className="text-md font-medium">Semen</h4>
-            <h4 className="text-sm font-medium">Sample 19A43A</h4>
+            <h4 className="text-base font-semibold">Semen</h4>
+            <h4 className="text-sm font-semibold">Sample 19A43A</h4>
           </div>
           <div className=" flex gap-2 items-center bg-opacityBlue rounded-xl px-2 py-1">
             <Image src="/Avatar.png" alt="avatar" width={16} height={16} />
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="bg-opacityWhite p-4 rounded-2xl gap-2 flex flex-col">
             <div className="flex gap-2 items-center">
               <Image src="/research.png" alt="" width={16} height={16} />
-              <h4 className="text-sm font-medium">Pre-processing</h4>
+              <h4 className="text-sm font-semibold">Pre-processing</h4>
             </div>
             <CardItems />
           </div>
@@ -70,10 +70,10 @@ export default function Home() {
                 width={18}
                 height={17}
               />
-              <h4 className="text-sm font-medium">Post Preparation</h4>
+              <h4 className="text-sm font-semibold">Post Preparation</h4>
 
               <div className="bg-opacityBlue rounded-full px-2 py-1">
-                <h4 className="text-sm font-medium text-accent">
+                <h4 className="text-[10px] font-medium text-accent">
                   microfluidics{" "}
                 </h4>
               </div>
@@ -83,7 +83,7 @@ export default function Home() {
           <div className="bg-opacityWhite  rounded-xl  ">
             <div className="bg-[url('/blur.png')] bg-cover bg-center bg-no-repeat w-full h-full flex flex-col items-center justify-center gap-8 p-4">
               <div className="text-center flex gap-2 flex-col">
-                <h4 className="text-md font-medium">
+                <h4 className="text-base font-medium">
                   No insemination details yet
                 </h4>
                 <p className="text-sm font-medium text-[#929DB7]">

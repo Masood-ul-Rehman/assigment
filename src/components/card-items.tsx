@@ -10,12 +10,12 @@ const items = [
     value: "15 M/mL",
   },
   {
-    title: "4%",
-    value: "Normal Morphology",
+    value: "4%",
+    title: "Normal Morphology",
   },
   {
-    title: "40%",
-    value: "Progressive Motility",
+    value: "40%",
+    title: "Progressive Motility",
   },
 ];
 
@@ -28,7 +28,7 @@ const CardItems = () => {
             className="flex flex-col gap-1 p-4 rounded-md bg-[#FFFFFF0D]"
             key={item.value}
           >
-            <h1 className="text-md font-medium text-white">{item.value}</h1>
+            <h1 className="text-base font-semibold text-white">{item.value}</h1>
             <h1 className="text-xs font-medium text-[#929DB7]">{item.title}</h1>
           </div>
         ))}
