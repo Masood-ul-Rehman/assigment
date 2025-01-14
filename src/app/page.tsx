@@ -4,32 +4,34 @@ import CardItems from "@/components/card-items";
 export default function Home() {
   return (
     <div className="p-4 bg-white flex flex-col items-center justify-center gap-4 text-white">
-      <div className="bg-primary w-full h-[300px] p-6 rounded-xl">
-        <div className=" flex justify-between items-center w-full">
-          <Image src="/logo.png" alt="logo" width={140} height={100} />
-          <Image src="/open.png" alt="open" width={14} height={14} />
-        </div>
-        <div className="bg-bgImg bg-cover bg-center bg-no-repeat w-full h-full flex flex-col items-center justify-center">
-          <div className="flex flex-col gap-2">
-            <h4 className="text-white text-center text-sm">
-              OPU Scheduled for{" "}
-              <span className="underline">Friday 24 Jun 10:30 am</span>
-            </h4>
-            <p className="text-[#B2BEE0] text-center text-sm font-medium">
-              Oocytes can be added here once OPU has successfully occurred
-            </p>
+      <div className="bg-primary w-full rounded-[20px]">
+        <div className="bg-bgImg bg-no-repeat  bg-center w-full h-[280px]    p-6">
+          <div className=" flex justify-between items-center w-full">
+            <Image src="/logo.png" alt="logo" width={140} height={100} />
+            <Image src="/open.png" alt="open" width={14} height={14} />
           </div>
+          <div className=" bg-cover bg-center bg-no-repeat w-full h-full flex flex-col items-center justify-center relative">
+            <div className="flex flex-col font-normal gap-2">
+              <h4 className="text-white text-center text-sm font-normal">
+                OPU Scheduled for{" "}
+                <span className="underline">Friday 24 Jun 10:30 am</span>
+              </h4>
+              <p className="text-[#B2BEE0] text-center text-sm font-medium">
+                Oocytes can be added here once OPU has successfully occurred
+              </p>
+            </div>
 
-          <div className="flex flex-col gap-2 mt-8">
-            <Button text="Add oocytes & OPU details" />
-            <h4 className="text-white text-center text-sm">
-              No oocytes collected,{" "}
-              <span className="text-[#7F6BF3] font-medium">close cycle</span>
-            </h4>
+            <div className="flex flex-col gap-3 mt-8">
+              <Button text="Add oocytes & OPU details" />
+              <h4 className="text-[#B1BBE0] text-center text-sm">
+                No oocytes collected,{" "}
+                <span className="text-[#7F6BF3] font-medium">close cycle</span>
+              </h4>
+            </div>
           </div>
         </div>
       </div>
-      <div className="w-full flex flex-col  bg-primary p-4 rounded-xl gap-4">
+      <div className="w-full flex flex-col  bg-primary p-4 rounded-2xl gap-4">
         <div className="flex  gap-3">
           <div className=" flex gap-2 items-center">
             <Image src="/seman.png" alt="semen icon" width={20} height={20} />
@@ -42,18 +44,18 @@ export default function Home() {
               Partner: PESA Testicular
             </h4>
           </div>
-          <div className=" flex gap-2 items-center bg-opacityBlue rounded-xl px-2 py-1">
+          <div className=" flex gap-2 items-center bg-opacityBlue rounded-2xl px-2 py-1">
             <Image src="/snow.png" alt="snow icon" width={16} height={16} />
             <h4 className="text-sm font-medium text-accent">Frozen</h4>
           </div>
-          <div className=" flex gap-2 items-center bg-opacityBlue rounded-xl px-2 py-1">
+          <div className=" flex gap-2 items-center bg-opacityBlue rounded-2xl px-2 py-1">
             <Image src="/tube.png" alt="tube icon" width={10} height={10} />
             <h4 className="text-sm font-medium text-accent">12:56 PM</h4>
             <h4 className="text-sm font-medium text-accent">10 Jun 2024</h4>
           </div>
         </div>
         <div className="w-full grid grid-cols-3 gap-3">
-          <div className="bg-opacityWhite p-4 rounded-xl gap-2 flex flex-col">
+          <div className="bg-opacityWhite p-4 rounded-2xl gap-2 flex flex-col">
             <div className="flex gap-2 items-center">
               <Image src="/research.png" alt="" width={16} height={16} />
               <h4 className="text-sm font-medium">Pre-processing</h4>

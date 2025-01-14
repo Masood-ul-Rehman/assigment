@@ -19,6 +19,7 @@ body {
   background: var(--background);
   font-family: "SF Pro Display", Arial, Helvetica, sans-serif;
   font-weight: 500;
+  letter-spacing: 0.21px;
 }
 @font-face {
   font-family: "SF Pro Display";
