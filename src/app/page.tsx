@@ -16,14 +16,14 @@ export default function Home() {
                 OPU Scheduled for{" "}
                 <span className="underline">Friday 24 Jun 10:30 am</span>
               </h4>
-              <p className="text-[#B2BEE0] text-center text-sm font-medium">
+              <p className="text-textGrey text-center text-sm font-medium">
                 Oocytes can be added here once OPU has successfully occurred
               </p>
             </div>
 
             <div className="flex flex-col gap-3 mt-8">
               <Button text="Add oocytes & OPU details" />
-              <h4 className="text-[#B1BBE0] text-center text-sm">
+              <h4 className="text-textGrey text-center text-sm">
                 No oocytes collected,{" "}
                 <span className="text-[#7F6BF3] font-medium">close cycle</span>
               </h4>
@@ -83,10 +83,10 @@ export default function Home() {
           <div className="bg-opacityWhite  rounded-xl  ">
             <div className="bg-[url('/blur.png')] bg-cover bg-center bg-no-repeat w-full h-full flex flex-col items-center justify-center gap-8 p-4">
               <div className="text-center flex gap-2 flex-col">
-                <h4 className="text-base font-medium">
+                <h4 className="text-sm font-medium">
                   No insemination details yet
                 </h4>
-                <p className="text-sm font-medium text-[#929DB7]">
+                <p className="text-[12px] font-medium text-[#929DB7]">
                   This will come after OPU has been verified
                 </p>
               </div>

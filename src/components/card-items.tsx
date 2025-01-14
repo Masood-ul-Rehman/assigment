@@ -35,7 +35,7 @@ const CardItems = () => {
       </div>
       <div className="flex  gap-2 p-3 rounded-md bg-[#FFFFFF0D] w-full">
         <img src="/file-02.png" alt="" />
-        <h1 className="text-xs font-medium text-white">
+        <h1 className="text-xs font-normal text-white">
           Minimal bleeding noted at puncture site, reso.....
         </h1>
       </div>

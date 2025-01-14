@@ -12,6 +12,7 @@ export default {
         primary: "#08122E",
         opacityWhite: "#FFFFFF0D",
         opacityBlue: "#5577FF33",
+        textGrey: "#B2BEE0",
         accent: "#5577FF",
       },
       boxShadow: {
