@@ -37,7 +37,7 @@ export default function Home() {
             <h4 className="text-sm font-medium">Sample 19A43A</h4>
           </div>
           <div className=" flex gap-2 items-center bg-opacityBlue rounded-xl px-2 py-1">
-            <Image src="/avatar.png" alt="avatar" width={16} height={16} />
+            <Image src="/Avatar.png" alt="avatar" width={16} height={16} />
             <h4 className="text-sm font-medium text-accent">
               Partner: PESA Testicular
             </h4>
